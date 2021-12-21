@@ -25,8 +25,13 @@
             "description": "Heroku API Key.",
             "required": true
         },
-        "NO_ONLINE": {
-            "description": "Type true if you don't want to appear online.",
+        "IMG": {
+            "description": "Paste image Url",
+            "required": false,
+            "value": "true"
+        },
+        "TEXT": {
+            "description": "Paste Your text",
             "required": false,
             "value": "true"
         }

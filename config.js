@@ -20,6 +20,7 @@ module.exports = {
     CHANNEL: 'https://t.me/remasterplugin',
     SESSION: process.env.JULIE_SESSION === undefined ? '' : process.env.JULIE_SESSION,
     IMG: process.env.IMG === undefined ? false : process.env.IMG.toUpperCase(),
+    TEXT: process.env.TEXT === undefined ? `` : process.env.TEXT.toUpperCase(),
     LANG: process.env.LANGUAGE === undefined ? 'en' : process.env.LANGUAGE.toUpperCase(),
     WEL_GIF: process.env.WEL_GIF === undefined ? 'https://i.imgur.com/nErXUGj.mp4' : process.env.WEL_GIF,
     BYE_GIF: process.env.BYE_GIF === undefined ? 'https://i.imgur.com/Z1jCYGN.mp4' : process.env.BYE_GIF,
