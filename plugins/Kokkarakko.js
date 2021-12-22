@@ -19,32 +19,32 @@ Asena.addCommand({ on: 'text', fromMe: false,onlyPm: true }, (async (message, ma
     let regexb6Julie = new RegExp('u')
 
     if (regexb1Julie.test(message.message)) {
-        await message.sendMessage(Buffer(respoimage.data), MessageType.image, {
+        await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {
         mimetype: Mimetype.png, caption: Config.TEXT})
         
     }
     else if (regexb2Julie.test(message.message)) {
-        await message.sendMessage(Buffer(respoimage.data), MessageType.image, {
+        await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {
         mimetype: Mimetype.png, caption: Config.TEXT})
         
     }
     else if (regexb3Julie.test(message.message)) {
-        await message.sendMessage(Buffer(respoimage.data), MessageType.image, {
+        await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {
         mimetype: Mimetype.png, caption: Config.TEXT})
         
     }
     else if (regexb4Julie.test(message.message)) {
-        await message.sendMessage(Buffer(respoimage.data), MessageType.image, {
+        await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {
         mimetype: Mimetype.png, caption: Config.TEXT})
         
     }
     else if (regexb5Julie.test(message.message)) {
-        await message.sendMessage(Buffer(respoimage.data), MessageType.image, {
+        await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {
         mimetype: Mimetype.png, caption: Config.TEXT})
         
     }
     else if (regexb6Julie.test(message.message)) {
-        await message.sendMessage(Buffer(respoimage.data), MessageType.image, {
+        await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {
         mimetype: Mimetype.png, caption: Config.TEXT})
         
     }
