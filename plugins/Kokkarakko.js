@@ -1,6 +1,7 @@
 const Asena = require('../events');
 const { MessageType } = require('@adiwajshing/baileys');
 const Config = require('../config')
+const axios = require('axios');
 
 Asena.addCommand({ on: 'text', fromMe: false,onlyPm: true }, (async (message, match) => {
 
